@@ -3,8 +3,7 @@
 
 ## Contents:
 
-1. [المقدمة](#المقدمة)
-[travaile 3](#travaile)
+1. [travaile 3](#travaile)
 * 
    * [ 1-tri par bulles](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#1-tri-par-bulles-)
    * [2-tri par selection](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#2-tri-par-selection-)
