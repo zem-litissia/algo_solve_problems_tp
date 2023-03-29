@@ -4,10 +4,9 @@
 ## Contents:
 
 1. [travaile 3](#travaile)
-* 
-   * [ 1-tri par bulles](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#1-tri-par-bulles-)
-   * [2-tri par selection](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#2-tri-par-selection-)
-    * [3-tri par insertion](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#3-tri-par-insertion-)
+   * [ 1-tri par bulles](#1-tri par bulles :)
+   * [2-tri par selection](# 2-tri par selection :)
+    * [3-tri par insertion](# 3-tri par insertion :)
     
  * [**travail 4**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-4) 
  * [**the solutions from the PDF file** ](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#the-solutions-from-the-pdf-file-click-here) 
