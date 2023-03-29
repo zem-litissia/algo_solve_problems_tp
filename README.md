@@ -2,7 +2,10 @@
 ![Background](https://user-images.githubusercontent.com/127783044/228566427-bd3aaa48-f15c-46d9-ac45-66a6a8343886.png)
 
 ## Contents:
-* [**travail 3**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-3)
+
+1. [المقدمة](#المقدمة)
+[travaile 3](#travaile)
+* 
    * [ 1-tri par bulles](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#1-tri-par-bulles-)
    * [2-tri par selection](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#2-tri-par-selection-)
     * [3-tri par insertion](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#3-tri-par-insertion-)
@@ -13,7 +16,8 @@
  
  
  ## travaile 3:
- 
+ ## المقدمة
+
  
  ### 1-tri par bulles :
  
