@@ -2,18 +2,21 @@
 ![Background](https://user-images.githubusercontent.com/127783044/228566427-bd3aaa48-f15c-46d9-ac45-66a6a8343886.png)
 
 ## Contents:
-* travail 3 
-  * 1-tri par bulles :
-   * 2-tri par selection
-    * 3-tri par insertion
+* [**travail 3**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-3)
+   * [ 1-tri par bulles](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#1-tri-par-bulles-)
+   * [2-tri par selection](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#2-tri-par-selection-)
+    * [3-tri par insertion](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#3-tri-par-insertion-)
     
- * travail 4 
- 
+ * [**travail 4**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-4) 
+ * [**the solutions from the PDF file** ](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#the-solutions-from-the-pdf-file-click-here) 
  
  
  
  ## travaile 3:
+ 
+ 
  ### 1-tri par bulles :
+ 
 
  ```c
  #include <stdio.h>
@@ -49,7 +52,11 @@ int main() {
 }
 
 ```
+### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+
 ### 2-tri par selection :
+
+
 ```c
 #include <stdio.h>
 void descendent2(int tab[]){
@@ -88,7 +95,11 @@ int main() {
 }
 
 ```
+### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+
 ### 3-tri par insertion :
+
+
 ```c
 #include <stdio.h>
 void descendent3(int tab[]){
@@ -122,5 +133,16 @@ int main() {
 
 
 ```
+### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+## travaile 4:
 
 
+
+## the solutions from the PDF file click here:
+
+#### pdf de travail 3 :
+
+[pdf file ](https://github.com/zem-litissia/algo_solve_problems_tp/files/11103366/algo_solve_pdf.pdf)
+
+
+### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
