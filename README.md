@@ -1,22 +1,21 @@
 # algo_solve_problems_tp
 ![Background](https://user-images.githubusercontent.com/127783044/228566427-bd3aaa48-f15c-46d9-ac45-66a6a8343886.png)
 
-## Contents:
+## contents
 
-1. [travaile 3](#travaile)
+* [**travaile 3**](#travaile-3)
    * [ 1-tri par bulles](#tri-par-bulles)
-   * [2-tri par selection](2-tri_par_selection :#)
-    * [3-tri par insertion](# 3-tri par insertion :)
-    [المقدمة](#المقدمة[Travail 3](#travaile-3-))
- * [**travail 4**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-4) 
- * [**the solutions from the PDF file** ](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#the-solutions-from-the-pdf-file-click-here) 
+   * [2-tri par selection](#tri-par-selection)
+    * [3-tri par insertion](#tri-par-insertion)
+ * [**travail 4**](#travaile-4)
+ 
+ * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
  
- ## travaile 3:
- ## المقدمة
+ ## travaile 3
 
- 
+ ### [⬆ **Back to top**](#contents)
  ### tri par bulles
 
 
@@ -54,9 +53,9 @@ int main() {
 }
 
 ```
-### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+### [⬆ **Back to top**](#contents)
 
-### 2-tri par selection :
+### tri par selection
 
 
 ```c
@@ -97,9 +96,9 @@ int main() {
 }
 
 ```
-### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+### [⬆ **Back to top**](#contents)
 
-### 3-tri par insertion :
+### tri par insertion
 
 
 ```c
@@ -135,16 +134,16 @@ int main() {
 
 
 ```
-### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
-## travaile 4:
+
+## travaile 4
 
 
 
-## the solutions from the PDF file click here:
+## the solutions from the pdf
 
-#### pdf de travail 3 :
+#### pdf de travail 3
 
 [pdf file ](https://github.com/zem-litissia/algo_solve_problems_tp/files/11103366/algo_solve_pdf.pdf)
 
 
-### [⬆ **Back to top**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#contents)
+### [⬆ **Back to top**](#contents)
