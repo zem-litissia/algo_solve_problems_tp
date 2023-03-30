@@ -4,10 +4,10 @@
 ## Contents:
 
 1. [travaile 3](#travaile)
-   * [ 1-tri par bulles](#1-tri par bulles :)
-   * [2-tri par selection](# 2-tri par selection :)
+   * [ 1-tri par bulles](1-tri par bulles :#)
+   * [2-tri par selection](2-tri_par_selection :#)
     * [3-tri par insertion](# 3-tri par insertion :)
-    
+    [المقدمة](#المقدمة)
  * [**travail 4**](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#travaile-4) 
  * [**the solutions from the PDF file** ](https://github.com/zem-litissia/algo_solve_problems_tp/edit/main/README.md#the-solutions-from-the-pdf-file-click-here) 
  
@@ -17,7 +17,7 @@
  ## المقدمة
 
  
- ### 1-tri par bulles :
+ ### 1-tri_par_bulles :
  
 
  ```c
