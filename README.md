@@ -1,5 +1,5 @@
 # algo_solve_problems_tp
-![Background](https://user-images.githubusercontent.com/127783044/228566427-bd3aaa48-f15c-46d9-ac45-66a6a8343886.png)
+![Background](https://user-images.githubusercontent.com/127783044/229522997-014b253a-fae6-4016-b7a3-7e2192e0f5a1.png)
 
 ## contents
 
