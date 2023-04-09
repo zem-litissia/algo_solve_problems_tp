@@ -137,6 +137,132 @@ int main() {
 
 ## travaile 4
 
+### [⬆ **Back to top**](#contents)
+
+### exercice 1
+
+**ecrire un programme permettant de suprimer toutes les valeures nulles dans un vecteur** 
+
+```c
+#include <stdio.h>
+int main() {
+  int tab[100];
+  int x,i,j;
+  printf("veuiez entrer la taille de tablaux choisis ");
+   scanf("%d",&x);
+  for(i=0;i<x;i++){
+      printf("enter lelement %d",i+1);
+      scanf("%d",&tab[i]);
+  }
+  j=0;
+    for(i=0;i<x;i++){
+     if(tab[i]!=0){
+         tab[j]=tab[i];
+         j++;
+     }}
+    for(i=0;i<j;i++){
+      printf("tab[%d]=%d \n",i,tab[i]);
+  }
+   return 0;
+}
+
+```
+
+### [⬆ **Back to top**](#contents)
+
+### exercice 3
+
+**ecrire un programme permettant de aficher les nombre parfait dans une matrice** 
+
+```c
+#include <stdio.h>
+int main() {
+  int tab[100][100];
+  int x,y,i,j,n,t;
+  printf("veuiez entrer la taille de ligne tablaux choisis ");
+   scanf("%d",&x);
+   printf("veuiez entrer la taille de colone tablaux choisis ");
+   scanf("%d",&y);
+  for(i=0;i<x;i++){
+       for(j=0;j<y;j++){
+      printf("enter lelement %d %d",i+1,j+1);
+      scanf("%d",&tab[i][j]);
+  }}
+  printf("les nombre parfait dans la matrice est ");
+  for(i=0;i<x;i++){
+       for(j=0;j<y;j++){
+     n=0;
+     for(t=1;t<=(tab[i][j]/2);t++){
+         if(tab[i][j]%t==0){
+             n=n+t;
+         } }
+         if(n==tab[i][j]){
+             printf(" %d \n",tab[i][j]);
+         }
+         
+  }}
+   return 0;
+}
+```
+
+### [⬆ **Back to top**](#contents)
+
+### exercice 4
+#### 4.1
+
+**ecrire une fonction premier permettant de determiner  les nombre semi premier dans un vecteur** 
+
+```c
+#include <stdio.h>
+void premier(int tab[],int m) {
+    int i, j, a;
+    for (i=0;i<m;i++) {
+        a=1;
+    for (j=2; j<tab[i];j++) {
+        if (tab[i]%j==0) {
+          a=0;
+          break;
+            } }
+        if (a==1 &&tab[i]>= 2) {
+            printf("%d ",tab[i]);}}
+}
+    int main() {
+  int tab[100];
+  int x,i,j;
+  printf("veuiez entrer la taille de tablaux choisis ");
+   scanf("%d",&x);
+  for(i=0;i<x;i++){
+      printf("enter lelement %d",i+1);
+      scanf("%d",&tab[i]);
+  }
+    for(i=0;i<j;i++){
+      printf("tab[%d]=%d \n",i,tab[i]);
+  }
+  premier(tab , x);
+   return 0;
+}
+
+```
+
+### [⬆ **Back to top**](#contents)
+
+#### 4.2
+
+**ecrire une fonction semi_premier permettant de determiner  les nombre semi premier dans un vecteur** 
+
+```c
+
+```
+### [⬆ **Back to top**](#contents)
+
+### exercice 5
+#### 5.1
+
+**ecrire un programme  permettant de determiner  si un mot es palindromme** 
+
+```c
+
+```
 
 
 ## the solutions from the pdf
