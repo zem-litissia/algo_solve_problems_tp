@@ -8,7 +8,13 @@
    * [2-tri par selection](#tri-par-selection)
     * [3-tri par insertion](#tri-par-insertion)
  * [**travail 4**](#travaile-4)
- 
+    * [exercice 1](#exercice-1)
+    * [exercice 3](#exercice-3)
+    * [exercice 4](#exercice-4)
+         * [**4.1**](#ex4-1)
+    * [exercice 5](#exercice-5)
+         * [**5.1**](#ex5-1)
+         * [**5.2**](#ex5-2)
  * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
@@ -208,9 +214,9 @@ int main() {
 ### [⬆ **Back to top**](#contents)
 
 ### exercice 4
-#### 4.1
+#### ex4 1
 
-**ecrire une fonction premier permettant de determiner  les nombre semi premier dans un vecteur** 
+**4.1 :ecrire une fonction premier permettant de determiner  les nombre  premier dans un vecteur** 
 
 ```c
 #include <stdio.h>
@@ -246,7 +252,7 @@ void premier(int tab[],int m) {
 
 ### [⬆ **Back to top**](#contents)
 
-#### 4.2
+#### ex4 2
 
 **ecrire une fonction semi_premier permettant de determiner  les nombre semi premier dans un vecteur** 
 
@@ -256,11 +262,86 @@ void premier(int tab[],int m) {
 ### [⬆ **Back to top**](#contents)
 
 ### exercice 5
-#### 5.1
+#### ex5 1
 
 **ecrire un programme  permettant de determiner  si un mot es palindromme** 
 
 ```c
+#include <stdio.h>
+#include <string.h>
+int polindrome(char nom[]){
+   int x,i,j;
+   x=strlen(nom);
+for(i=0,j=x-1;i<j;i++,j--){
+    if(nom[i]!=nom[j]){
+        return 0;
+    }
+}
+return 1;
+}
+int main() {
+  char nom[100];
+  printf("veuiez entrer le mot ");
+   scanf("%s",&nom);
+  if(polindrome(nom)==1){
+      printf("le mots est polindromme ");
+  }else {
+    printf("le mots n'est pas polindromme ");
+  }
+   return 0;
+}
+```
+### [⬆ **Back to top**](#contents)
+
+#### ex5 2
+
+**ecrire un programme  permettant de determiner  si un mot es anagramme** 
+
+```c
+#include <stdio.h>
+    #include <string.h>
+    void tri(char mot[]) {
+        int i,j;
+        int  x=strlen(mot);
+        char aide;
+        for(i=0;i<x-1;i++) {
+            for(j=i+1;j<x;j++) {
+                if(mot[i]>mot[j]) {
+                    aide=mot[i];
+                    mot[i]=mot[j];
+                    mot[j]=aide;
+                }}} }
+    int anagramme(char mot1[], char mot2[]) {
+        int i;
+        if(strlen(mot1) != strlen(mot2)) {
+            return 0;
+        }
+        //pour trier les letrre des mot
+        tri(mot1);
+        tri(mot2);
+        for(i=0;i<strlen(mot1);i++) {
+            if(mot1[i] == mot2[i]) {
+                return 1;
+            }
+        }
+        return 0;
+    }
+    
+    int main() {
+        char mot1[100];
+        char mot2[100];
+        printf("veuiller entrer un  mot  ");
+        scanf("%s", mot1);
+        printf("veuillez entrer un autre mot  ");
+        scanf("%s", mot2);
+
+     if(anagramme(mot1, mot2)==1) {
+        printf("les  mots sont  anagrammes ");
+     } else {
+        printf("les  mots ne sont pas anagrammes  ");
+     }
+        return 0;
+}
 
 ```
 
