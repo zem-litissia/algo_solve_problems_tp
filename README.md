@@ -18,6 +18,8 @@
 * [**travail 5**](#travaile-5)	 
     * [exercice 1](#exo1)
          * [**exo1 a**](#exo1-a)
+	  * [**exo1 b**](#exo1-b)
+	 
 * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
@@ -383,7 +385,39 @@ int main (){
 
   ```
   ### [⬆ **Back to top**](#contents)
+   #### exo1 b
+  
+   **Ecrire une fonction/procédure qui décompose un temps exprimé en secondes en un
+temps de types TEMP.**
+   
+  ```c
+  #include <stdio.h>
+typedef struct {
+int heure;
+int min ;
+int s ;
+}TEMP;
+void temp (int a){
+    int s;
+     TEMP x;
+     x.heure=a/3600;
+     a=a%3600;
+     x.min=a/60;
+     a=a%60;
+     x.s=a;
+     printf("le temp est %d h %d min %d s " ,x.heure,x.min,x.s);
+}
+int main (){
+    int a;
+    printf("enter le temp en second ");
+    scanf("%d",&a);
+    
+    temp(a);
+    return 0;
+}
 
+  ```
+### [⬆ **Back to top**](#contents)
 
 ## the solutions from the pdf
 
