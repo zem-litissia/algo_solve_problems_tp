@@ -15,7 +15,10 @@
     * [exercice 5](#exercice-5)
          * [**5.1**](#ex5-1)
          * [**5.2**](#ex5-2)
- * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
+* [**travail 5**](#travaile-5)	 
+    * [exercice 1](#exo1)
+         * [**exo1 a**](#exo1-a)
+* [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
  
@@ -344,6 +347,42 @@ int main() {
 }
 
 ```
+### [⬆ **Back to top**](#contents)
+## travaile 5
+
+ ### exo1
+  **Définir un type TEMP qui contient les champs heure,minute,seconde.**
+   
+  #### exo1 a
+  
+   **Ecrire une fonction/procédure qui transforme un temps T de type TEMP en un entier**
+   
+  ```c
+  #include <stdio.h>
+typedef struct {
+int heure;
+int min ;
+int s ;
+}TEMP;
+void temp (TEMP a){
+    int s;
+    s=(a.heure)*3600+(a.min)*60+(a.s);
+    printf("le temp expriment en second est %d",s);
+}
+int main (){
+    TEMP x;
+    printf("enter the heure ");
+    scanf("%d",&x.heure);
+    printf("enter the min ");
+    scanf("%d",&x.min);
+    printf("enter the secand ");
+    scanf("%d",&x.s);
+    temp(x);
+    return 0;
+}
+
+  ```
+  ### [⬆ **Back to top**](#contents)
 
 
 ## the solutions from the pdf
