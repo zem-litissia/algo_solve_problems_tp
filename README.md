@@ -20,7 +20,10 @@
          * [**exo1 a**](#exo1-a)
 	  * [**exo1 b**](#exo1-b)
 	  * [**exo1 c**](#exo1-c)
-	 
+    * [exercice 2](#exo2) 
+          
+	  * [**exo2 b**](#exo2-b)
+	   
 * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
@@ -455,6 +458,49 @@ int main (){
 
   ```
 ### [⬆ **Back to top**](#contents)
+
+### exo2
+  **Définir un type TEMP qui contient les champs heure,minute,seconde.**
+   
+  #### exo2 b
+  
+   **Ecrire une fonction/procédure qui détermine la différence en nombre de jours entre
+deux dates.**
+   
+  ```c
+  #include <stdio.h>
+typedef struct {
+int jj;
+int mm ;
+int aa ;
+}DATE;
+void defirence (DATE x,DATE y){
+     int a,b;
+     a=x.jj+(x.mm)*30+(x.aa)*365;
+     b=y.jj+(y.mm)*30+(y.aa)*365;
+     if(a-b<0){
+         printf("la difirence est %d",b-a);
+     }else if(a-b==0){
+         printf("les date sont les meme");
+     }else{
+         printf("la difirence est %d",a-b);
+     }
+}
+
+int main (){
+    DATE x;
+    DATE y;
+     printf("Entrez la premiere date jour/month/annee : ");
+    scanf("%d %d %d", &x.jj, &x.mm, &x.aa);
+ printf("Entrez la deusiemme date jour/month/annee ");
+    scanf("%d %d %d", &y.jj, &y.mm, &y.aa);
+
+    defirence(x,y);
+    return 0;
+}
+
+  ```
+  ### [⬆ **Back to top**](#contents)
 
 
 ## the solutions from the pdf
