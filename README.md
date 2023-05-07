@@ -19,6 +19,7 @@
     * [exercice 1](#exo1)
          * [**exo1 a**](#exo1-a)
 	  * [**exo1 b**](#exo1-b)
+	  * [**exo1 c**](#exo1-c)
 	 
 * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
@@ -417,7 +418,44 @@ int main (){
 }
 
   ```
+ ### [⬆ **Back to top**](#contents)
+   #### exo1 c
+  
+   **Ecrire une fonction/procédure qui fait la somme de deux durée T1 et T2 de types
+TEMP.**
+   
+  ```c
+  #include <stdio.h>
+typedef struct {
+int heure;
+int min ;
+int s ;
+}TEMP;
+void temp (TEMP x,TEMP y){
+     TEMP a;
+     a.s=x.s+y.s;
+     a.min=x.min+y.min+(a.s/60);
+     a.s =a.s % 60;
+     a.heure=x.heure+y.heure+(a.min/60);
+     a.min =a.min % 60;
+  printf("la somme des temp est %d h %d min %d s " ,a.heure,a.min,a.s);
+}
+
+int main (){
+    TEMP x;
+    TEMP y;
+     printf("Entrez la premiere duree h/min/s : ");
+    scanf("%d %d %d", &x.heure, &x.min, &x.s);
+ printf("Entrez la deusiemme duree h/min/s ");
+    scanf("%d %d %d", &y.heure, &y.min, &y.s);
+
+    temp(x,y);
+    return 0;
+}
+
+  ```
 ### [⬆ **Back to top**](#contents)
+
 
 ## the solutions from the pdf
 
