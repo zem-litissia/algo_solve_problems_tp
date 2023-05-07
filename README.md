@@ -23,7 +23,7 @@
     * [exercice 2](#exo2) 
           
 	  * [**exo2 b**](#exo2-b)
-	   
+* [**travail 6**](#travaile-6)	 	   
 * [**the solutions from the PDF file**](#the-solutions-from-the-pdf) 
  
  
@@ -402,7 +402,6 @@ int min ;
 int s ;
 }TEMP;
 void temp (int a){
-    int s;
      TEMP x;
      x.heure=a/3600;
      a=a%3600;
@@ -502,6 +501,75 @@ int main (){
   ```
   ### [⬆ **Back to top**](#contents)
 
+## travaile 6
+**construire un programme pour simuler un distributeur automatique**
+ ```c
+ #include <stdio.h>
+typedef struct {
+char nom[12];
+int code ;
+float prix ;
+int quantiti;
+}PRODUCT;
+int main (){
+// représenter chaque produit et les stocker dans un tableau.
+   PRODUCT x[4]={           
+       {"l'aux",1,30,9},
+    {"Chips",2,40,0},
+    {"chocolat",3,50,8},
+     {"jus",4,40.5,8}  
+   };
+   int i,a,q;
+   int code;
+   float m;
+  // Afficher la liste des produit et leur prix.
+  printf("la liste des produit de distriburteure : \n");
+  printf("le produit | le code | prix | quantiti | \n ");
+    for(i=0;i<4;i++){                  
+        printf("%s  |   %d    |  %.2f  |   %d     | \n",x[i].nom,x[i].code,x[i].prix,x[i].quantiti);
+    }
+    //rechercher le tableau des produits pour un code correspondant
+    printf("veuillez enter le code de ");
+    scanf("%d",&code);
+    a=-1;
+    for(i=0;i<4;i++){                  
+       if(x[i].code==code){
+           a=i;
+           break;
+       }
+    }
+    if(x[a].quantiti>0){
+         printf("veuillez enter la quantiti ");
+        scanf("%d",&q);
+        while(q>x[a].quantiti){
+            printf("la quantiti insufisant\n");
+       printf("veuillez enter la quantiti ");
+        scanf("%d",&q);
+        };
+    }else{
+        printf("Désolé, le produit est en rupture de stock");
+    }
+    //demander à l’utilisateur d’entrer le montant de paiement
+    printf("le prix de ton produit est %2.f \n",x[a].prix);
+     printf("enter la monie sil veux plait ");
+         scanf("%f",&m);
+    while(m<x[a].prix*q){
+        printf("votre monie est insufisant \n");
+           printf("enter la monie sil veux plait");
+         scanf("%f",&m);
+        };
+    if(m>x[a].prix*q){
+        m=m-(x[a].prix)*q;
+        printf(" Prenez le reste de l'argent %2.f DA et merci pour lachat \n",m);
+    }else if (m==x[a].prix*q){
+         printf("merci pour lachat \n");
+    }
+
+    return 0;
+}
+
+  ```
+  ### [⬆ **Back to top**](#contents)
 
 ## the solutions from the pdf
 
